@@ -20,7 +20,17 @@ h2{
     border-bottom: black solid 1px;
     font-size: medium;
 }
+a:link{
+    color:red;
+}
 
+a:hover {
+    color: black;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: 15px;
+}
 p{
     margin-left: 20px;
 }
